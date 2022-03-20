@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/task_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:text="Hi"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/task_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="#F4DD0D"
+        android:onClick="deleteTask"
+        android:text="Done"
+        android:textColor="#009688" />
+
+</RelativeLayout>
